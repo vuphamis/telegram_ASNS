@@ -8,7 +8,7 @@ pre: " <b> 2.1 </b> "
 
 #### Diagram
 
-![](/images/WorkshopDiagram.svg?width=50pc)
+![](/images/WorkshopDiagram.png?width=60pc)
 
 #### Environment Specifications
 
