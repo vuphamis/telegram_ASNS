@@ -8,9 +8,7 @@ pre: " <b> 1. </b> "
 
 #### Introdution
 
-**Monitoring log messages** is a crucial aspect of information security. It provides valuable insights into system behavior, helps detect potential security threats, and allows for timely response to incidents. By analyzing log data, security teams can identify unusual patterns, track suspicious activities, and gain a better understanding of the overall security posture of their systems. Log monitoring also aids in compliance with various industry regulations and standards that require organizations to maintain audit trails and evidence of security measures.
-
-**In this workshop**, we'll be looking at a system with a web server that's been misconfigured. We'll be monitoring an error log for the service using Amazon CloudWatch and sending an alarm to the user via an Amazone SNS service triggered by an Amazon CloudWatch Alarm.
+**In this mini workshop**, we'll setup a simple architecture combine between Amazon SNS and Amazon Lambda. With purpose send SNS message to Messaging API (In this situation is telegram api).
 
 #### Amazon Simple Notifications Service
 
@@ -22,30 +20,8 @@ pre: " <b> 1. </b> "
 
 #### Amazon CloudWatch
 
-Launched in 2008, **Amazon CloudWatch** is a monitoring service that provides insights into the performance, health, and usage of your applications, systems, and infrastructure. It tracks data from your AWS resources and custom apps. With CloudWatch, you can monitor your apps, identify issues, and optimise your resources. It has evolved to support more AWS services and features, making it a comprehensive solution for monitoring and troubleshooting cloud-based apps.
-
+Launched in 2008, AWS **Lambda**, a groundbreaking service introduced by Amazon Web Services in November 2014, revolutionized the way developers build and deploy applications. It pioneered the concept of serverless computing, allowing developers to run code in response to events without the need to manage underlying infrastructure.
+ It allows developers to run code in response to events without provisioning or managing servers. This means you can build and deploy applications without worrying about the underlying infrastructure. Lambda automatically scales your application based on the workload, ensuring optimal performance and cost-efficiency. It supports various programming languages like Python, Java, Node.js.
 <div style="text-align: right">
-<a href="https://000008.awsstudygroup.com/">FCJ - Workshop about Amazon CloudWatch</a>
-<br>
-<a href="https://docs.aws.amazon.com/cloudwatch/">More informations about Amazon CloudWatch</a>
-</div>
-
-#### AWS Command Line Interface
-
-The **AWS Command Line Interface (CLI)** is an open-source tool that enables you to interact with AWS services using commands in a terminal. It provides functionality equivalent to the AWS Management Console. It supports various command environments: Linux, Windows, MAC OS. The AWS CLI is a powerful tool for managing cloud infrastructure.
-
-<div style="text-align: right">
-<a href="https://000011.awsstudygroup.com/">FCJ - Workshop about AWS CLI</a>
-<br>
-<a href="https://docs.aws.amazon.com/cli/">More informations about AWS CLI</a>
-</div>
-
-#### Amazon Elastic Compute Cloud
-
-**Amazon EC2 (Elastic Compute Cloud)** is a cloud computing service that provides scalable computing capacity in the cloud. It allows you to rent virtual servers (instances) with various configurations. Launched in 2006, EC2 was one of the first cloud computing services offered by Amazon Web Services (AWS). It played a pivotal role in popularizing cloud computing and has since become a cornerstone of the AWS platform.
-
-<div style="text-align: right">
-<a href="https://000004.awsstudygroup.com/">FCJ - Workshop about AWS EC2</a>
-<br>
-<a href="https://docs.aws.amazon.com/ec2/">More informations about AWS EC2</a>
+<a href="https://docs.aws.amazon.com/lambda/">More informations about Amazon Lambda</a>
 </div>
