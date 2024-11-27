@@ -78,7 +78,7 @@ You could choose **Upload a file file from Amazon S3** if file existed in S3
 6. In **Choose a layer** section:
 
 	* Choose **Custom layers** in Layer source
-	* Choose <name of created slayer\>  in last step, and choose version.
+	* Choose <name of created layer\>  in last step, and choose version.
 	* Then click **Add** button.
 
 	![](/images/Lambda_Add_Layer_1.png?width=90pc)
